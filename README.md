@@ -6,11 +6,15 @@ This project performs Exploratory Data Analysis (EDA) on the Black Friday Sales 
 
 **Objectives**
 
-Analyze customer demographics.
-Study purchasing patterns across age groups and genders.
-Identify top-performing product categories.
-Understand city-wise purchasing behavior.
-Generate business insights from sales data.
+1.Analyze customer demographics.
+
+2.Study purchasing patterns across age groups and genders.
+
+3.Identify top-performing product categories.
+
+4.Understand city-wise purchasing behavior.
+
+5.Generate business insights from sales data.
 
 **Tools and Technologies**
 
