@@ -27,13 +27,13 @@ The dataset contains customer demographic information, product details, and purc
   
 **Project Workflow**
 
-1. Data Preprocessing
+**1. Data Preprocessing**
 - Handled missing values
 - Removed unnecessary columns
 - Encoded categorical variables
 - Prepared data for machine learning models
 
-2. Exploratory Data Analysis (EDA)
+**2. Exploratory Data Analysis (EDA)**
 - Gender-wise purchase analysis
 - Age group analysis
 - City category analysis
@@ -41,12 +41,12 @@ The dataset contains customer demographic information, product details, and purc
 - Product category analysis
 - Purchase distribution analysis
   
-3. Feature Engineering
+**3. Feature Engineering**
 - Label Encoding
 - Data Transformation
 - Feature Selection
-- 
-4. Model Building
+  
+**4. Model Building**
 
 The following regression models were implemented:
 
@@ -55,7 +55,7 @@ The following regression models were implemented:
 - Random Forest Regressor
 - Gradient Boosting Regressor
   
-5. Model Evaluation
+**5. Model Evaluation**
 
 Models were evaluated using:
 
@@ -94,17 +94,6 @@ Demonstrated the highest predictive performance among all tested models.
 - Seaborn
 - Scikit-learn
 - Jupyter Notebook
-
-  
-**Project Structure**
-
-Black-Friday-Sales-Prediction-and-Analysis/
-│
-├── BlackFriday_Analysis.ipynb
-├── README.md
-├── BlackFriday.csv
-└── images/
-
 
 **Future Improvements**
 
