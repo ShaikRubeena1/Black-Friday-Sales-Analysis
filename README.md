@@ -18,8 +18,8 @@ This project performs Exploratory Data Analysis (EDA) on the Black Friday Sales 
 
 **Tools and Technologies**
 
-Python
-Pandas
+- Python
+- Pandas
 NumPy
 Matplotlib
 Seaborn
