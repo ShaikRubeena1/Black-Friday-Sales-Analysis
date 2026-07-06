@@ -85,7 +85,7 @@ Demonstrated the highest predictive performance among all tested models.
 - Product categories show varying purchase trends.
 - City categories impact overall spending patterns.
 - Machine learning models can effectively predict customer purchase amounts.
-- 
+  
 **Technologies Used**
 - Python
 - Pandas
@@ -118,6 +118,5 @@ Black-Friday-Sales-Prediction-and-Analysis/
 Shaik Rubeena
 Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning
 
-Connect With Me
-
+**Connect With Me**
 Feel free to connect and provide feedback on this project.
