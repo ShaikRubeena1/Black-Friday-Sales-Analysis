@@ -1,44 +1,123 @@
-# Black Friday Customer Purchase Prediction & Sales Analysis
+# Black Friday Sales Prediction and Customer Purchase Analysis
 
 **Project Overview**
 
-This project performs Exploratory Data Analysis (EDA) on the Black Friday Sales dataset to understand customer purchasing behavior and identify factors influencing sales.
+This project focuses on analyzing customer purchasing behavior during Black Friday sales and building machine learning models to predict purchase amounts.
+The analysis includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and model evaluation.
 
-**Objectives**
+The goal is to identify key factors influencing customer spending and develop predictive models that can estimate purchase amounts accurately.
 
-1.Analyze customer demographics.
+**Dataset Information**
 
-2.Study purchasing patterns across age groups and genders.
+The dataset contains customer demographic information, product details, and purchase records collected during Black Friday sales.
 
-3.Identify top-performing product categories.
+**Features**
+- User_ID
+- Product_ID
+- Gender
+- Age
+- Occupation
+- City_Category
+- Stay_In_Current_City_Years
+- Marital_Status
+- Product_Category_1
+- Product_Category_2
+- Product_Category_3
+- Purchase (Target Variable)
+  
+**Project Workflow**
 
-4.Understand city-wise purchasing behavior.
+1. Data Preprocessing
+- Handled missing values
+- Removed unnecessary columns
+- Encoded categorical variables
+- Prepared data for machine learning models
 
-5.Generate business insights from sales data.
+2. Exploratory Data Analysis (EDA)
+- Gender-wise purchase analysis
+- Age group analysis
+- City category analysis
+- Marital status analysis
+- Product category analysis
+- Purchase distribution analysis
+  
+3. Feature Engineering
+- Label Encoding
+- Data Transformation
+- Feature Selection
+- 
+4. Model Building
 
-**Tools and Technologies**
+The following regression models were implemented:
 
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Gradient Boosting Regressor
+  
+5. Model Evaluation
+
+Models were evaluated using:
+
+- R² Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+  
+**Model Performance**
+- Model	R²   Score
+- Gradient Boosting Regressor	0.639
+- Random Forest Regressor	0.590
+- Decision Tree Regressor	0.376
+- Linear Regression	0.160
+  
+**Best Performing Model**
+
+Gradient Boosting Regressor
+
+R² Score: 0.639
+Demonstrated the highest predictive performance among all tested models.
+
+**Key Business Insights**
+
+- Customer demographics significantly influence purchasing behavior.
+- Certain age groups contribute more to total sales.
+- Product categories show varying purchase trends.
+- City categories impact overall spending patterns.
+- Machine learning models can effectively predict customer purchase amounts.
+- 
+**Technologies Used**
 - Python
 - Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-**Key Insights**
+  
+**Project Structure**
 
-Certain age groups contribute significantly to overall sales.
-Product categories show different purchasing trends.
-Customer demographics influence purchasing behavior.
-Sales patterns vary across cities and customer segments.
+Black-Friday-Sales-Prediction-and-Analysis/
+│
+├── BlackFriday_Analysis.ipynb
+├── README.md
+├── BlackFriday.csv
+└── images/
 
-**Files**
 
-BlackFriday_Analysis.ipynb – Complete analysis notebook
-black_friday.csv – Dataset
-README.md – Project documentation
+**Future Improvements**
 
-Author
+- Hyperparameter tuning
+- Advanced feature engineering
+- XGBoost implementation
+- Model deployment using Flask or Streamlit
+- Interactive dashboard creation
 
+**Author**
 Shaik Rubeena
-Aspiring Data Analyst
+Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning
+
+Connect With Me
+
+Feel free to connect and provide feedback on this project.
